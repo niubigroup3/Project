@@ -1,6 +1,5 @@
 package com.citi.bean;
 
-import java.io.Serializable;
 import java.util.Date;
 
 /**
@@ -9,7 +8,7 @@ import java.util.Date;
  * @Description: com.citi.bean
  * @version: 1.0
  */
-public class DemoUser implements Serializable{
+public class DemoUser {
 
     Integer id;
     String name;

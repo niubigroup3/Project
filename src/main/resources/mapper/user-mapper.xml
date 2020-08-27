@@ -23,7 +23,7 @@
     <select id="selectUserByName" resultType="DemoUser">
         select <include refid="selectFields"></include>
         from demo_user
-        where name = #{name}
+        where id = #{name}
     </select>
 
 

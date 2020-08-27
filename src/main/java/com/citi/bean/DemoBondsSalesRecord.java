@@ -1,6 +1,6 @@
 package com.citi.bean;
 
-import java.sql.Date;
+import java.util.Date;
 
 /**
  * @Auther: chenle
@@ -16,9 +16,7 @@ public class DemoBondsSalesRecord {
     Integer amount;
     Date createdAt;
     Date updatedAt;
-    public String getSalesName() {
-        return salesName;
-    }
+
     @Override
     public String toString() {
         return "DemoBondsSalesRecord{" +
@@ -47,7 +45,9 @@ public class DemoBondsSalesRecord {
         this.bondsName = bondsName;
     }
 
-
+    public String getSalesName() {
+        return salesName;
+    }
 
     public void setSalesName(String salesName) {
         this.salesName = salesName;
